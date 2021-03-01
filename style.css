@@ -77,6 +77,7 @@ input[type="submit"] {
 
 .contacts-tab {
     border: 1px solid #c7c7cc;
+    padding: 2rem;
 }
 
 table {
