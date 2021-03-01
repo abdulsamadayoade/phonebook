@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "DM Sans Regular";
+    src: url("/textfonts/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM Sans Bold";
+    src: url("/textfonts/DMSans-Bold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "DM Sans Regular", sans-serif;
+    font-size: 1.5rem;
+    padding: 5rem 2rem;
+}
+
+.container {
+    max-width: 85rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem 15rem;
+}
+
+.input-tab div {
+    max-width: 50rem;
+    margin: 3rem auto 4rem;
+}
+
+h1 {
+    text-align: center;
+    color: #3a3a3b;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #fafbfb;
+    border: 1px solid #c7c7cc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #6152F4;
+    border: none;
+    outline: none;
+    color: #fafbfb;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.contacts-tab {
+    border: 1px solid #c7c7cc;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    margin-bottom: 1rem;
+}
+
+th {
+    text-align: left;
+    color: #3a3a3b;
+}
+
+
+thead tr {
+    height: 4rem;
+}
+
+tbody {
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+tbody tr {
+    height: 3.5rem;
+}
+
