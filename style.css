@@ -117,6 +117,18 @@ tbody tr {
     height: 3.5rem;
 }
 
+.success {
+    background-color: #6152F4;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.error {
+    background-color: red;
+    padding: 1.5rem;
+    color: #fff;
+}
+
 /* MEDIA QUERIES --- RESPONSIVENESS*/
 @media screen and (max-width: 900px) {
     .container {
