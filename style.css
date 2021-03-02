@@ -32,14 +32,22 @@ body {
     grid-gap: 3rem 15rem;
 }
 
+.input-tab,
+.contacts-tab {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .input-tab div {
     max-width: 50rem;
     margin: 3rem auto 4rem;
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
     color: #3a3a3b;
+    font-size: 2.5rem;
 }
 
 
@@ -73,6 +81,7 @@ input[type="submit"] {
     color: #fafbfb;
     border-radius: 5px;
     font-size: 1.6rem;
+    cursor: pointer;
 }
 
 .contacts-tab {
@@ -81,11 +90,12 @@ input[type="submit"] {
 }
 
 table {
+    margin-top: 1rem;
     width: 100%;
 }
 
 thead {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 th {
@@ -107,3 +117,23 @@ tbody tr {
     height: 3.5rem;
 }
 
+/* MEDIA QUERIES --- RESPONSIVENESS*/
+@media screen and (max-width: 900px) {
+    .container {
+        grid-gap: 3rem 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 3rem 15rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contacts-tab {
+        padding: 1rem;
+    }
+}
